@@ -1,0 +1,76 @@
+* {
+    padding: 0;
+    margin: 2px;
+}
+body {
+    display: grid;
+    grid-gap: 0.5rem;
+    grid-template-areas:
+    "header header header"
+    "main main aside"
+    "footer footer aside";
+    font-family: 'Roboto', sans-serif;
+    grid-template-columns: auto auto 50vh;
+    grid-template-rows: 12vh 70vh 15vh;
+}
+
+.o-header {
+    grid-area: header;
+}
+    
+.o-aside {
+    grid-area: aside;
+}
+    
+.o-main {
+    grid-area: main;
+}
+    
+.o-footer {
+    grid-area: footer;
+    overflow-x: auto;
+}
+
+.o-header, .o-aside, .o-main, .o-footer {
+    background: gray;
+    color: #FDFDFD;
+}
+
+#title {
+    display: grid;
+    grid-gap: 0.5rem;
+    grid-template-areas:
+    "col-1 col-2 col-3";
+    font-family: 'Roboto', sans-serif;
+    grid-template-columns: auto auto 10vh;
+    font-weight: bold;
+}
+
+ul {
+    list-style: none;
+}
+
+#cloud {
+    position: absolute;
+    top: 10%; left: 60%;
+}
+
+table,table th, table td{
+    border: 3px solid #111;
+    background-color: rgb(54, 54, 54);
+}
+table , input, select{
+    width: 100%;
+    padding: 10px;
+}
+
+#footerButton {
+    background-color: rgb(54, 54, 54) !important;
+    border-color: #111 !important;
+    height: 122px !important;
+}
+
+#buttonIndex {
+    border-radius: 10px 0 10px 0;
+    border: 2px solid rgb(54, 54, 54);
+}

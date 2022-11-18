@@ -27,6 +27,18 @@ body {
 .o-head, .o-aside, .o-main {
     padding: 3px;
     border: 2px solid rgb(0, 0, 0);
+    background: gray;
     color: #FDFDFD;
+}
+#btnIndex {
+    border-radius: 10px 0 10px 0;
+    border-color: #505050;
+    padding-top: 30px;
     width: 100%;
+}
+
+#btnOptionsMenu{
+    border-color: #111 !important;
+    background-color: rgb(54, 54, 54) !important;
+    border-radius: 0;
 }

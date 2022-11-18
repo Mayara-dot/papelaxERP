@@ -3,8 +3,12 @@
 :wrench:
 
 
+Screen Principal
+<img src="./public/images/mainscreensystem.png" alt="systemScreenshot"/>
 
-<img src="./public/images/screensystem.png" alt="systemScreenshot"/>
+
+Mais Opções de Menu
+<img src="./public/images/options_menuscreensystem.png" alt="systemScreenshot"/>
 
 Sistema de ERP desenvolvido com função de atender estabelecimentos, para gerar pedidos.
 

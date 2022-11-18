@@ -3,7 +3,7 @@
     $system = SystemMode("T");
     $date = indexDate();
 @endphp
-@extends('components/layout')
+@extends('components/layouts/main_layout')
 <x-header></x-header>
 @section('main')
 <section id="title">
@@ -14,9 +14,9 @@
 
 @for ($i = 0; $i < 4; $i++)
 <div class="d-flex flex-row">
-    <input id="buttonIndex" class="p-2" type="button" value="CATEGORY">
-    <input id="buttonIndex" class="p-2" type="button" value="CATEGORY">
-    <input id="buttonIndex" class="p-2" type="button" value="CATEGORY">
+    <input id="btnIndex" class="p-2" type="button" value="CATEGORY">
+    <input id="btnIndex" class="p-2" type="button" value="CATEGORY">
+    <input id="btnIndex" class="p-2" type="button" value="CATEGORY">
 </div>
 @endfor
 
@@ -30,5 +30,6 @@
 @endunless
 @endsection
 
-<x-aside></x-aside>
+
+<x-main_aside></x-main_aside>
 <x-footer></x-footer>

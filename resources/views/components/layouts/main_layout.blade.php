@@ -28,7 +28,7 @@
     </main>
     <aside class="o-aside">
         {{--VIEW OUTPUT--}}
-        @yield('aside')
+        @yield('main_aside')
     </aside>
     <footer class="o-footer">
         {{--VIEW OUTPUT--}}

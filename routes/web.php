@@ -20,8 +20,12 @@ Route::get('/', function () {
     ]);
 });
 
-Route::get('/menu/{category}', function ($category) {
-    return view('partials/single', [
-        "menu" => Menu::find($category)
-    ]);
+// Route::get('/menu/{category}', function ($category) {
+//     return view('partials/single', [
+//         "menu" => Menu::find($category)
+//     ]);
+// });
+
+Route::get('menu/options', function () {
+    return view('partials/options');
 });

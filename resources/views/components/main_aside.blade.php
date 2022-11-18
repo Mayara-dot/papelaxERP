@@ -1,8 +1,8 @@
-@extends('components/layout')
-@section('aside')
+@extends('components/layouts/main_layout')
+@section('main_aside')
 <table>
     <tr>
-        <th style="width: 150px">MESA</th>
+        <th id="mesa">MESA</th>
         <th colspan="4">GARÇOM</th>
     </tr>
     <tr>
@@ -46,17 +46,17 @@
         <td><input type="button" value="PGTO"></td>
         <td colspan="4"><input type="button" value="ENTER"></td>
     </tr>
-    <tr>
+    <tr id="table_pt_2">
         <th>DESCRIÇÃO</th>
         <th>QTDE</th>
         <th colspan="2">PREÇO</th>
         <th>SUB TOTAL</th>
     </tr>
-    <tr>
-        <td colspan="5">
+    <tr >
+        <td colspan="5" id="textarea">
             <div class="form-floating">
                 <textarea class="form-control" 
-                readonly id="textarea" style="height: 310px">
+                readonly>
                 </textarea>
             </div>
         </td>

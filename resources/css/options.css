@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: grid;
+    grid-template-areas:
+    "head head"
+    "main aside";
+    font-family: 'Roboto', sans-serif;
+    grid-template-columns: auto 50vh;
+    grid-template-rows: 10vh 90vh;
+}
+
+.o-head {
+    grid-area: head;
+}
+
+.o-aside {
+    grid-area: aside;
+}
+    
+.o-main {
+    grid-area: main;
+}
+
+.o-head, .o-aside, .o-main {
+    padding: 3px;
+    border: 2px solid rgb(0, 0, 0);
+    color: #FDFDFD;
+    width: 100%;
+}

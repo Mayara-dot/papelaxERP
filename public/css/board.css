@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: grid;
+    grid-template-areas:
+    "header header"
+    "main aside"
+    "single aside";
+    font-family: 'Roboto', sans-serif;
+    grid-template-columns: auto 50vh;
+    grid-template-rows: 10vh 50vh 40vh;
+}
+
+.o-header {
+    grid-area: header;
+    background-color: #2b2115 !important;
+}
+
+.o-aside {
+    grid-area: aside;
+    background-color: white;
+    border: 3px solid #111;
+}
+    
+.o-main {
+    grid-area: main;
+}
+
+.o-single {
+    grid-area: single;
+    overflow-x: auto;
+}
+
+.o-single, .o-main{
+    border: 10px solid #936d37;
+}
+
+#btnMenuFiscal {
+    padding: 10px 20px 10px 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    position: fixed;
+    right: 10px;
+}
+
+#menuFiscal, #voltarBoard {
+    text-decoration: none;
+    color: black;
+}
+
+i {
+    color: #624824;
+}
+
+table th, td{
+    border-left: 2px black solid;
+    background-color: white;
+    color: black;
+}
+table {
+    width: 100%;
+}
+
+#head {
+    justify-content: space-between;
+    padding-inline-end: 3rem;
+} 
+
+#allBoards i, #allBoards a{
+    font-size: 70px;
+}
+#status, #btnBoards{
+    background:#936d37;
+    font-weight: bold;
+}
+.container {
+    overflow:auto;
+    height: 90%;
+}
+
+#asideTable {
+    border-bottom: 3px solid #111;
+}
+
+#asideTable th, #asideTable td{
+    background-color: #49361b !important;
+    color: white;
+    border: 3px solid #111;
+}
+#asideTable input, #btnBoardAside{
+    padding: 10px;
+}
+
+#asideTable input, #btnBoardAside {
+    width: 100%;
+}
+
+#asideTable #qtd:focus, #asideTable #codigo:focus {
+    background-color: #936d37;
+}
+
+#btn-group{
+    height: min-content !important;
+    border-bottom: 10px #111 solid;
+    background-color: #111;
+}
+
+#btn-group button {
+    border-radius: 10px 0 10px 0;
+    font-size: large;
+    border-width: 2px;
+    border-color: #111 !important;
+    padding: 15px;
+}
+
+#statusIcons {
+    background: white;
+    font-size: 28px;
+    height: min-content !important;
+}
+
+#statusIcons div {
+    padding-bottom: 50px;
+}
+
+#closingIcon {
+    color: rgb(158, 158, 45);
+}
+
+#busyIcon  {
+    color: red;
+}

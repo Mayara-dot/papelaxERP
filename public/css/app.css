@@ -32,12 +32,16 @@ body {
 }
 
 .o-header, .o-aside, .o-main, .o-footer {
-    background: gray;
+    background:#936d37;
     color: #FDFDFD;
 }
 .o-header, .o-main {
     padding: 3px;
     border: 2px solid rgb(0, 0, 0);
+}
+
+.o-header {
+    background-color: #2b2115 !important;
 }
 
 #title {
@@ -71,15 +75,15 @@ table textarea {
     height: 400px !important;
 }
 
-table,table th, table td, #btnFooter {
-    background-color: rgb(54, 54, 54) !important;
+table,table th, table td, #btnFooter, #btnOptionsMenu, #btnBoardMenu {
+    background-color: #49361b !important;
 }
 
 #textarea {
     background-color: #DDD !important;
 }
 
-#btnFooter, #btnOptionsMenu {
+#btnFooter, #btnOptionsMenu, #btnBoardMenu {
     border-color: #111 !important;
     border-radius: 0;
     height: 122px !important;
@@ -98,6 +102,7 @@ table,table th, table td, #btnFooter {
     height: 35px;
 }
 
+/* label for aside menu 'mesa input' */
 #mesa {
     width: 150px;
 }

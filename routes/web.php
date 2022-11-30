@@ -29,3 +29,7 @@ Route::get('/', function () {
 Route::get('menu/options', function () {
     return view('partials/options');
 });
+
+Route::get('menu/board', function () {
+    return view('partials/board');
+});

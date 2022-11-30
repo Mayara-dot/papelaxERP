@@ -1,5 +1,5 @@
 @extends('components/layouts/main_layout')
-@section('main_aside')
+@section('aside')
 <table>
     <tr>
         <th id="mesa">MESA</th>

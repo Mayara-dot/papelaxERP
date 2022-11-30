@@ -5,15 +5,15 @@
 body {
     display: grid;
     grid-template-areas:
-    "head head"
+    "header header"
     "main aside";
     font-family: 'Roboto', sans-serif;
     grid-template-columns: auto 50vh;
     grid-template-rows: 10vh 90vh;
 }
 
-.o-head {
-    grid-area: head;
+.o-header {
+    grid-area: header;
 }
 
 .o-aside {
@@ -24,12 +24,17 @@ body {
     grid-area: main;
 }
 
-.o-head, .o-aside, .o-main {
+.o-header, .o-aside, .o-main {
     padding: 3px;
     border: 2px solid rgb(0, 0, 0);
-    background: gray;
+    background:#936d37;
     color: #FDFDFD;
 }
+
+.o-header {
+    background-color: #2b2115 !important;
+}
+
 #btnIndex {
     border-radius: 10px 0 10px 0;
     border-color: #505050;
@@ -39,6 +44,6 @@ body {
 
 #btnOptionsMenu{
     border-color: #111 !important;
-    background-color: rgb(54, 54, 54) !important;
+    background-color: #49361b !important;
     border-radius: 0;
 }

@@ -6,6 +6,12 @@
     <span><i class="fa fa-plus"></i>
     MAIS OPÇÕES</span>
     </a>
+    <a id="btnBoardMenu" href="/menu/board" class="btn btn-primary" 
+    role="button">
+    <span><i class="fa fa-couch">
+    </i>
+    CONSULTA MESA </span>
+    </a>
     @for ($i = 0; $i < 10; $i++)
         <a id="btnFooter" class="btn btn-primary btn-lg p-5" 
         href="#" role="button">

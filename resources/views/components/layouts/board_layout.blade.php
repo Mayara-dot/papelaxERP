@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="icon" href={{asset("/images/favicon.ico")}}>
-    <link href="/css/app.css" rel="stylesheet">
+    <link href="/css/board.css" rel="stylesheet">
     {{-- GOOGLE FONTS --}}
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -25,15 +25,14 @@
     <main class="o-main">
         {{--VIEW OUTPUT--}}
         @yield('main')
-        @yield('single')
     </main>
+    <div class="o-single">
+        {{--VIEW OUTPUT--}}
+        @yield('single')
+    </div>
     <aside class="o-aside">
         {{--VIEW OUTPUT--}}
         @yield('aside')
     </aside>
-    <footer class="o-footer">
-        {{--VIEW OUTPUT--}}
-        @yield('footer')
-    </footer>
 </body>
 </html>

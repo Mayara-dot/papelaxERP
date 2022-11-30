@@ -4,11 +4,15 @@
 
 
 Screen Principal
-<img src="./public/images/mainscreensystem.png" alt="systemScreenshot"/>
+<img src="./public/images/mainScreen.png" alt="mainScreen"/>
 
 
 Mais Opções de Menu
-<img src="./public/images/options_menuscreensystem.png" alt="systemScreenshot"/>
+<img src="./public/images/menuOptionScreen.png" alt="menuOptionScreen"/>
+
+
+Tela de Satus de Todas as Mesas
+<img src="./public/images/boardTableScreen.png" alt="boardTableScreen"/>
 
 Sistema de ERP desenvolvido com função de atender estabelecimentos, para gerar pedidos.
 

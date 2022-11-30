@@ -44,7 +44,6 @@ body {
     background-color: #2b2115 !important;
 }
 
-
 #title {
     display: grid;
     grid-template-areas:
@@ -95,7 +94,7 @@ table,table th, table td, #btnFooter, #btnOptionsMenu, #btnBoardMenu {
     border-color: #505050 !important;
 }
 
-#btnOptionsMenu, #btnBoardMenu {
+#btnOptionsMenu {
     padding-top: 30px;
 }
 
@@ -104,6 +103,6 @@ table,table th, table td, #btnFooter, #btnOptionsMenu, #btnBoardMenu {
 }
 
 /* label for aside menu 'mesa input' */
-#mesa { 
+#mesa {
     width: 150px;
 }

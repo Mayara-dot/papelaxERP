@@ -15,15 +15,17 @@ body {
 
 .o-header {
     grid-area: header;
+    background-color: #2b2115 !important;
 }
 
 .o-aside {
     grid-area: aside;
+    background-color: white;
+    border: 3px solid #111;
 }
     
 .o-main {
     grid-area: main;
-    overflow-x: auto;
 }
 
 .o-single {
@@ -31,20 +33,8 @@ body {
     overflow-x: auto;
 }
 
-.o-aside {
-    padding: 3px;
-    border: 3px solid rgb(0, 0, 0);
-    border-top: 0 !important;
-    background:#936d37;
-    color: #FDFDFD;
-}
-
 .o-single, .o-main{
     border: 10px solid #936d37;
-}
-
-.o-header {
-    background-color: #2b2115 !important;
 }
 
 #btnMenuFiscal {
@@ -55,7 +45,7 @@ body {
     right: 10px;
 }
 
-#menuFiscal {
+#menuFiscal, #voltarBoard {
     text-decoration: none;
     color: black;
 }
@@ -76,9 +66,69 @@ table {
 #head {
     justify-content: space-between;
     padding-inline-end: 3rem;
+} 
 
+#allBoards i, #allBoards a{
+    font-size: 70px;
+}
+#status, #btnBoards{
+    background:#936d37;
+    font-weight: bold;
+}
+.container {
+    overflow:auto;
+    height: 90%;
 }
 
-#status {
-    background:#936d37;
+#asideTable {
+    border-bottom: 3px solid #111;
+}
+
+#asideTable th, #asideTable td{
+    background-color: #49361b !important;
+    color: white;
+    border: 3px solid #111;
+}
+#asideTable input, #btnBoardAside{
+    padding: 10px;
+}
+
+#asideTable input, #btnBoardAside {
+    width: 100%;
+}
+
+#asideTable #qtd:focus, #asideTable #codigo:focus {
+    background-color: #936d37;
+}
+
+#btn-group{
+    height: min-content !important;
+    border-bottom: 10px #111 solid;
+    background-color: #111;
+}
+
+#btn-group button {
+    border-radius: 10px 0 10px 0;
+    font-size: large;
+    border-width: 2px;
+    border-color: #111 !important;
+    padding: 15px;
+}
+
+#statusIcons {
+    background: white;
+    font-size: 28px;
+    height: min-content !important;
+}
+
+#statusIcons div {
+    padding-bottom: 50px;
+}
+
+#closingIcon {
+    color: rgb(158, 158, 45);
+}
+
+#busyIcon  {
+    color: red;
 }

@@ -4,6 +4,7 @@
     $date = indexDate();
 @endphp
 @extends('components/layouts/main_layout')
+<x-modal.main_modal></x-modal.main_modal>
 <x-header></x-header>
 @section('main')
 <section id="title">

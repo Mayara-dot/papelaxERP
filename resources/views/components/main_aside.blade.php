@@ -6,7 +6,7 @@
         <th colspan="4">GARÇOM</th>
     </tr>
     <tr>
-        <td><input type="text" name="" id=""></td>
+        <td><input type="number" name="" id=""></td>
         <td colspan="4"><select>
         <option value="ANA">ANA</option>
         <option value="MAYARA">MAYARA</option>
@@ -19,7 +19,7 @@
         <th colspan="4">CÓDIGO</th>
     </tr>
     <tr>
-        <td><input type="text" name="" id=""></td>
+        <td><input type="number" name="" id=""></td>
         <td colspan="4"><input type="text" name="" id=""></td>
     </tr>
     <tr>

@@ -1,3 +1,9 @@
+@php
+    $user = 'MAYARA';
+    $shift = rand(0001, 999);
+    session(['shift' => $shift]);
+    session(['user' => $user]);
+@endphp
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -18,6 +24,7 @@
     <title>ERP</title>
 </head>
 <body>
+    @yield('modal')
     <header class="o-header">
         {{--VIEW OUTPUT--}}
         @yield('header')

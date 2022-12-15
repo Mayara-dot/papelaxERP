@@ -1,7 +1,3 @@
-@php
-    $shift = rand(0001, 999);
-    $user = 'MAYARA';
-@endphp
 @extends('components/layouts/main_layout')
 @section('header')
 <nav class="navbar navbar-expand-lg">
@@ -13,13 +9,13 @@
         <li>
         <strong>Turno</strong>
         <li>
-        {{$shift}}
+        {{session()->get('shift')}}
         </li>
         </li>
         <li>
         <strong>OPERADOR</strong>
         <li>
-        {{$user}}
+        {{session()->get('user')}}
         </li>
         </li>
     </ul>

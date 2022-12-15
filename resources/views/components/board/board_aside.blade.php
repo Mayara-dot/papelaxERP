@@ -5,8 +5,8 @@
         <th colspan="4">CÓDIGO</th>
     </tr>
     <tr>
-        <td><input type="text" name="" id="qtd"></td>
-        <td colspan="4"><input type="text" name="" id="codigo"></td>
+        <td><input type="number" name="" id="qtd"></td>
+        <td colspan="4"><input type="number" name="" id="codigo"></td>
     </tr>
     <tr>
         <td><input type="button" value="7"></td>
@@ -45,14 +45,21 @@
 
 <div class="container" id="btn-group">
     <div class="row row-cols-2">
-        <button>Transferir item</button>
-        <button>Cancelar item</button>
-        <button>Detalhe item</button>
-        <button>Ajustar quantidade</button>
-        <button>Transferir mesa</button>
-        <button>Pré fechamento</button>
-        <button>Separar quantidade</button>
-        <button>Adiantamento</button>
+        <button id="transferItemModal" data-bs-toggle="modal" data-bs-target="#transferItemModal">Transferir item</button>
+
+        <button id="deleteItemModal" data-bs-toggle="modal" data-bs-target="#deleteItemModal">Cancelar item</button>
+
+        <button id="detailItemModal" data-bs-toggle="modal" data-bs-target="#detailItemModal">Detalhe item</button>
+
+        <button id="adjustQtdModal" data-bs-toggle="modal" data-bs-target="#adjustQtdModal">Ajustar quantidade</button>
+
+        <button id="transferBoardModal" data-bs-toggle="modal" data-bs-target="#transferBoardModal">Transferir mesa</button>
+
+        <button id="preCloseModal" data-bs-toggle="modal" data-bs-target="#preCloseModal">Pré-fechamento</button>
+
+        <button id="splitQtdModal" data-bs-toggle="modal" data-bs-target="#splitQtdModal">Separar quantidade</button>
+
+        <button id="adiantamentoModal" data-bs-toggle="modal" data-bs-target="#adiantamentoModal">Adiantamento</button>
     </div>
 </div>
 

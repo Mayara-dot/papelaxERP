@@ -18,6 +18,7 @@
     <title>ERP</title>
 </head>
 <body>
+    @yield('modal')
     <header class="o-header">
         {{--VIEW OUTPUT--}}
         @yield('header')

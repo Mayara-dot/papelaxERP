@@ -14,6 +14,10 @@ body {
     background-color: black !important;
 }
 
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
 .o-header {
     grid-area: header;
 }
@@ -75,7 +79,7 @@ table textarea {
     height: 400px !important;
 }
 
-table,table th, table td, #btnFooter, #btnOptionsMenu, #btnBoardMenu {
+table,table th, table td, .btn-primary {
     background-color: #49361b !important;
 }
 
@@ -83,26 +87,35 @@ table,table th, table td, #btnFooter, #btnOptionsMenu, #btnBoardMenu {
     background-color: #DDD !important;
 }
 
-#btnFooter, #btnOptionsMenu, #btnBoardMenu {
+.btn-primary  {
     border-color: #111 !important;
-    border-radius: 0;
+    border-radius: 0 !important;
     height: 122px !important;
 }
 
-#btnIndex {
+#btnIndex{
     border-radius: 10px 0 10px 0;
     border-color: #505050 !important;
 }
 
-#btnOptionsMenu {
-    padding-top: 30px;
-}
-
-#table_pt_2{
+#table_pt_2 {
     height: 35px;
 }
 
 /* label for aside menu 'mesa input' */
 #mesa {
     width: 150px;
+}
+
+#closeTableModal input {
+    height: fit-content;
+}
+
+#closeTableModal label {
+    font-size: larger;
+}
+
+span {
+    display: block;
+    padding: 20px;
 }

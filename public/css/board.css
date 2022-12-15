@@ -37,6 +37,10 @@ body {
     border: 10px solid #936d37;
 }
 
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
 #btnMenuFiscal {
     padding: 10px 20px 10px 10px;
     font-weight: bold;
@@ -50,7 +54,7 @@ body {
     color: black;
 }
 
-i {
+#printIcon {
     color: #624824;
 }
 
@@ -131,4 +135,8 @@ table {
 
 #busyIcon  {
     color: red;
+}
+
+#freeIcon {
+    color: blue;
 }
